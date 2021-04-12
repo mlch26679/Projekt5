@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Madskoler.dk</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="Images/Madskoler Logo.jpg" alt="Logo" height="80" width="auto"/>
+        </a>
+      </div>
+      <div class="topnav">
+        <a href="">Om madskoler</a>
+        <a href="">Tilmeld dit barn</a>
+        <a href="">Bliv instruktør</a>
+        <a href="">Kontakt</a>
+      </div>
+    </div>
+    <div class="streg1"></div>
+    <div class="skelet">
+      <div class="baggrund">
+        <div class="searchbar">
+          Find madskoler nær dig: <br>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- The form -->
+          <form class="example" action="action_page.php">
+            <input type="text" placeholder="Postnummer.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <br>
+        <!-- Javascript -->
+        <div class="Javascript">
+        <img name="slide" width="700" height="450">
+        <script>
+          var i = 0;
+          var images = [];
+          var time =2500;
+
+          //image Liste
+          images[0] = 'Images/billede1.png';
+          images[1] = 'Images/billede2.png';
+          images[2] = 'Images/billede3.png';
+          images[3] = 'Images/billede4.png';
+
+          //skift billede
+          function changeImg(){
+            document.slide.src = images[i];
+            if(i < images.length - 1){
+              i++;
+            } else {
+              i = 0;
+            }
+            setTimeout("changeImg()", time);
+          }
+          window.onload = changeImg;
+        </script>
+        </div>
+        <!-- Javascript slut -->
+
+        <div class="sponsertekst">
+          <p>Madskoler udbydes af 4H i et ikke profitskabende samarbejde med Landbrug & Fødevarer og REMA 1000</p>
+          <div class="sponsor">
+          <div class="sponsor1">
+          <img src="Images/4h-logo.png" alt="4h" height="35" width="auto">
+        </div>
+        <div class="sponsor2">
+          <img src="Images/landbrug.png" alt="4h" height="50" width="auto">
+        </div>
+        <div class="sponsor3">
+          <img src="Images/Rema.png" alt="4h" height="35" width="auto">
+        </div>
+      </div>
+        </div>
+        </div>
+        <div class="billeder">
+        <div class="billede1">
+          <a href="https://www.madskoler.dk/nyheder/">
+            <img src="Images/Nyheder.png" alt="Nyheder" height="280" width="auto">
+          </a>
+        </div>
+        <div class="billede2">
+          <a href="https://www.madskoler.dk/tilmeld-dit-barn/fa-besked-om-nye-madskoler/">
+            <img src="Images/Nyemadskoler.png" alt="Nyemadskoler" height="280" width="auto">
+          </a>
+        </div>
+        <div class="billede3">
+          <a href="https://www.madskoler.dk/om-madskoler/maden-pa-madskoler/">
+            <img src="Images/Madenderhjemme.png" alt="Madenderhjemme" height="280" width="auto">
+          </a>
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="streg2"></div>
+      <div class="footer"> <br>
+        <div class="flexbox">
+          <div class="footertekst1">
+            <h3>Madskoler</h3>
+            <p>33 39 42 77 <br>
+            madskoler@4h.dk <br> <br>
+
+            Copyright<br>
+            Cookiepolitik<br><br>
+
+            Privatlivspolitik</p>
+          </div>
+          <div class="footertekst2">
+            <h3>Om Madskoler</h3>
+            <p>Madskoler kort fortalt<br>
+            Hvad er Madskoler?<br>
+            Etniske Madskoler<br>
+            Ungdomsmadskoler<br>
+            3 dage med Madskoler<br>
+            Praktiske oplysningerbr<br>
+            Maden på Madskoler<br>
+            Salgs- og leveringsbetingelser</p>
+
+            <h3>Tilmeld dit barn</h3>
+            <p>Liste over Madskoler<br>
+            Kort over Madskoler<br>
+            Spørgsmål vedr. tilmelding<br>
+            Få besked om nye Madskoler</p>
+          </div>
+          <div class="footertekst3">
+            <h3>Bliv instruktør</h3>
+            <p>Gør en forskel<br>
+            At være madskoleinstruktør<br>
+            Hvor afholdes Madskoler<br>
+            Tilmeld dig som instruktør</p>
+            <button type="button1">Instruktør login</button>
+          </div>
+          <div class="footertekst4">
+            <h3>Sponsorer og ambassadører</h3>
+            <p>Fødevarestyrelsen<br>
+            Madskoleambassadører<br>
+            Danish Crown Beef<br>
+            Dansk Gartneri / Sæson<br>
+            Danske Æg<br>
+            F&H<br>
+            Danmarks Fiskerfriforening PO<br>
+            Lehnsgaard<br>
+            Mejeriernes Skolemælksordning<br>
+            Tulip Food Company</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
