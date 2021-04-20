@@ -1,0 +1,157 @@
+body{
+  background-color: #eaeaea;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 8px;
+}
+.header{
+  height: 135px;
+  width: auto;
+  background-color: #FFFFFF;
+}
+.logo{
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.topnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 20px;
+  padding-right: 30px;
+}
+.topnav a{
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+.topnav a:hover{
+  text-decoration: underline;
+  color: #28A745;
+}
+.streg1{
+  height: 5px;
+  width: auto;
+  background-color: #28A745;
+}
+.skelet{
+  height: 1100px;
+  width: auto;
+  background-color: #FFFFFF;
+}
+.searchbar{
+  background-color: #28A745;
+  border-radius: 0px 0px 0px 15px;
+  overflow: hidden;
+  float: right;
+  display: block;
+  color: #FFFFFF;
+  padding: 14px 16px;
+  font-size: 18px;
+  padding-right: 30px;
+}
+.sponsertekst{
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.sponsor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.sponsor1{
+  margin: 6px;
+  padding-top: 4px;
+}
+.sponsor2{
+  margin: 6px;
+}
+.sponsor3{
+  margin: 6px;
+  padding-top: 7px;
+}
+.billeder{
+  display: flex;
+  flex-direction: row;
+}
+.billede1{
+  display: flex;
+  margin: 62px;
+  margin-top: -350px;
+}
+.billede2{
+  display: flex;
+  margin: 62px;
+  margin-top: -350px;
+}
+.billede3{
+  display: flex;
+  margin: 62px;
+  margin-top: -350px;
+}
+.baggrund{
+  height: 1100px;
+  width: auto;
+  background-image: url(Images/poklj.png);
+}
+.Javascript{
+  padding-top: 100px;
+  padding-left: 270px;
+}
+.streg2{
+  height: 5px;
+  width: auto;
+  background-color: #28A745;
+}
+.footer{
+  display: flex;
+  height: 340px;
+  width: auto;
+  background-color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.flexbox{
+  display: flex;
+  background-color: #FFFFFF;
+  height: 340px;
+  width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.footertekst1{
+  font-size: 15px;
+}
+.footertekst2{
+  font-size: 15px;
+  padding-left: 165px;
+}
+.footertekst3{
+  font-size: 15px;
+  padding-left: 165px;
+}
+.footertekst4{
+  font-size: 15px;
+  padding-left: 165px;
+}
+.button1 {
+  background-color: #28A745;
+}
+
+
+/*blivinstruktør*/
+.blivinstruktør{
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 18px;
+}
+.blivinstruktør a{
+  color: #000000;
+}
+.blivinstruktør a:hover{
+  color: #28A745;
+}
